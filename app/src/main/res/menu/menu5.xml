@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/add_new_profile_five"
+        android:title="Add new profile" />
+    <item
+        android:id="@+id/edit_current_profile_five"
+        android:title="Edit current profile" />
+    <item
+        android:id="@+id/switch_to_profile_five"
+        android:title="Switch to another profile" />
+
+    <item
+        android:id="@+id/show_current_profile_five"
+        android:title="Show current profile" />
+
+
+</menu>
