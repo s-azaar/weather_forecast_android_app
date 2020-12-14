@@ -74,7 +74,7 @@ public class ShowCurrentProfileActivity extends AppCompatActivity implements Pop
             currentProfile.moveToNext();
             currentUnit = currentProfile.getString(4);
             DownloadWeatherConditions connectionAsyncTask = new DownloadWeatherConditions(this);
-            urlAPI = "https://api.openweathermap.org/data/2.5/forecast?q=" + currentProfile.getString(0) + "&units=" + currentProfile.getString(3) + "&appid=a0cfc77dbc9f50efb3d791762e2cd8ac";
+            urlAPI = "https://api.openweathermap.org/data/2.5/forecast?q=" + currentProfile.getString(0) + "&units=" + currentProfile.getString(3) + "&appid="+currentProfile.getString(1);
             connectionAsyncTask.execute(urlAPI);
     }
 
